@@ -8,7 +8,7 @@ file_path = 'a few more DHT RCTs_abstracts.xlsx'
 df = pd.read_excel(file_path)
 
 # Extract DOI column (Column F)
-dois = df.iloc[:, 5].dropna()  # Column F corresponds to index 5 (0-based indexing)
+dois = df.iloc[:, 5].dropna()
 
 # Directory to save abstracts
 output_dir = 'abstracts_auto_2'
