@@ -1,0 +1,10 @@
+# macOS system files
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
